@@ -103,3 +103,8 @@ browser mostra a página
 ## Bloco de Notas e Notepad++
 - O professor começa pelo Bloco de Notas por questões didáticas: como o editor não oferece ajuda, o aluno precisa digitar as tags e memorizar melhor a estrutura e a sintaxe do HTML.
 - O Notepad++ já reconhece linguagens como HTML, CSS e JavaScript e oferece recursos de edição que ajudam no desenvolvimento, sem ser uma IDE completa.
+
+## VS Code e Live Preview
+- O VS Code pode ser usado para editar HTML, CSS e JavaScript e visualizar o resultado no navegador.
+- A extensão **Live Preview**, da Microsoft, permite abrir uma visualização da página dentro do próprio VS Code.
+- O painel pode ser redimensionado para observar como a página se comporta em larguras diferentes.
