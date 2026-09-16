@@ -1,5 +1,7 @@
 # Bloco 3 — Textos e Conteúdo
 
+> Status: concluído.
+
 Anotações sobre títulos, parágrafos, quebras de linha e semântica textual.
 
 ## Títulos: h1 até h6
@@ -96,3 +98,28 @@ O material contrasta esse uso semântico com o uso puramente estético de `<b>` 
 ```
 
 No questionário do material, a tag esperada para uma palavra apresentada como highlighted é `<mark>`.
+
+## Resumo rápido
+
+```text
+<h1> ... <h6> -> títulos em diferentes níveis de hierarquia
+<p>            -> parágrafo
+<br>           -> quebra de linha
+<strong>       -> importância semântica
+<em>           -> ênfase
+<del>          -> conteúdo removido/substituído
+<mark>         -> destaque como marca-texto
+```
+
+## Checklist do bloco
+
+- Hierarquia de `<h1>` a `<h6>`.
+- Diferença entre parágrafo e quebra de linha.
+- Uso de `<br>` em conteúdos como poemas.
+- Diferença entre aparência visual e significado semântico.
+- `<strong>` para importância.
+- `<em>` para ênfase.
+- `<del>` para conteúdo removido/substituído.
+- `<mark>` para destaque.
+
+> Bloco 3 concluído após os checkpoints de revisão.
