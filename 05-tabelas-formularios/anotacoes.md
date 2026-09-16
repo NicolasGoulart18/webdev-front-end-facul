@@ -1,6 +1,6 @@
 # Bloco 5 — Tabelas e Formulários
 
-> Status: em finalização.
+> Status: concluído.
 
 Anotações consolidadas do estudo de tabelas e formulários em HTML.
 
@@ -134,3 +134,14 @@ Para um campo de e-mail, usamos:
 ```
 
 O tipo `email` informa ao navegador que o campo espera um endereço de e-mail.
+
+## Checklist do bloco
+
+- `table`, `tr`, `th` e `td`.
+- Diferença entre cabeçalho e célula de dados.
+- `form`, `input` e `button`.
+- `text` e `password`.
+- `date`, `time` e `datetime-local`.
+- `name` e `size`.
+- Associação entre `label for` e `input id`.
+- Complementos práticos: `email`, `method="post"`, `submit` e `reset`.
