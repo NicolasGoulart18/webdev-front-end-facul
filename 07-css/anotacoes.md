@@ -163,3 +163,30 @@ O CSS fica dentro da própria página HTML.
 ```
 
 O CSS fica em um arquivo separado. É a forma mais organizada quando várias páginas compartilham os mesmos estilos.
+
+## Box model básico
+
+```text
+margin  -> espaço externo
+border  -> borda
+padding -> espaço interno
+content -> conteúdo
+```
+
+Exemplo:
+
+```css
+.card {
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    margin: 30px;
+    border: 2px solid black;
+}
+```
+
+- `width`: largura.
+- `height`: altura.
+- `padding`: espaço entre conteúdo e borda.
+- `margin`: espaço externo entre o elemento e os demais.
+- `border: 2px solid black`: espessura, estilo e cor da borda.
