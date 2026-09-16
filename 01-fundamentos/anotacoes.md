@@ -54,7 +54,10 @@ Arquivo de anotações do primeiro bloco de estudos.
     > O servidor processa as informações e depois entrega codigos HTML,CSS,JavaScript para o navegador
 
 
-### Client 
+### Client & Server
+ >  SERVER-SIDE = prepara/processa
+ 
+ >CLIENT-SIDE = recebe/interpreta/exibe
 
 ## Obeservação sobre CLlient x Serve side
 - Muitas páginas são construídas dinamicamente
