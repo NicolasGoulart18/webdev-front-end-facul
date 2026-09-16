@@ -99,3 +99,39 @@ Exemplo:
     <h1>Minha faculdade</h1>
 </body>
 ```
+
+## Aninhamento de tags
+
+Aninhamento é quando uma tag fica dentro de outra tag.
+
+```html
+<p>
+    Meu texto <strong>importante</strong>
+</p>
+```
+
+A regra principal é:
+
+> A última tag que abriu é a primeira que deve ser fechada.
+
+Correto:
+
+```html
+<b><i>Texto</i></b>
+```
+
+Incorreto:
+
+```html
+<b><i>Texto</b></i>
+```
+
+Uma forma simples de visualizar:
+
+```text
+<b>
+    <i>
+        texto
+    </i>
+</b>
+```
