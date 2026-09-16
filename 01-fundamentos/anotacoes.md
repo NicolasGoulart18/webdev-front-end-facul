@@ -94,3 +94,8 @@ browser mostra a página
 - Um site responsivo adapta e reorganiza seus elementos conforme o espaço disponível na tela.
 - A página deve se ajustar a diferentes tamanhos de tela, como computador, tablet e smartphone.
 - Responsividade não significa apenas "funcionar em qualquer navegador"; significa principalmente adaptar o layout ao tamanho da tela.
+
+## Testando telas de dispositivos no Chrome
+- Pressione `F12` para abrir as ferramentas de desenvolvedor.
+- Use o botão **Toggle device toolbar** para simular diferentes tamanhos de tela e dispositivos móveis.
+- Depois de alterar o modo de visualização, pode ser necessário atualizar a página para observar o comportamento responsivo.
