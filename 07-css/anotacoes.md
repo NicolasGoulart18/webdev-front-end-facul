@@ -73,3 +73,14 @@ p {
 - `red` e `20px`: valores.
 
 Entre propriedade e valor usamos `:` e ao final da declaração usamos `;`.
+
+## CSS externo
+
+O arquivo CSS pode ficar separado do HTML e ser ligado no `<head>`:
+
+```html
+<link rel="stylesheet" href="style.css">
+```
+
+- `rel="stylesheet"`: informa que o recurso é uma folha de estilos.
+- `href="style.css"`: aponta o caminho do arquivo CSS.
