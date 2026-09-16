@@ -86,6 +86,9 @@ browser mostra a página
         ↓
 >atualiza a página
 
+## Testes em navegadores diferentes
+- Mesmo existindo padrões Web, o resultado pode apresentar pequenas diferenças entre navegadores.
+- Por isso é interessante testar a página em browsers diferentes e verificar se alguma alteração é necessária.
 
 ## Responsividade
 - Um site responsivo adapta e reorganiza seus elementos conforme o espaço disponível na tela.
