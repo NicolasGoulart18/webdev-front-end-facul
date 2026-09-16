@@ -39,3 +39,17 @@ footer
 ```
 
 Essa estrutura torna o documento mais claro e ajuda a representar corretamente a organização do conteúdo.
+
+## `header`, `nav` e `main`
+
+- `<header>`: cabeçalho da página ou de uma seção.
+- `<nav>`: região destinada à navegação principal e conjuntos importantes de links.
+- `<main>`: conteúdo principal do documento.
+
+Mapa rápido:
+
+```text
+header = cabeçalho
+nav    = navegação
+main   = conteúdo principal
+```
