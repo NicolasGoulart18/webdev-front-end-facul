@@ -88,4 +88,6 @@ browser mostra a página
 
 
 ## Responsividade
-- Um site responsivo pode funcionar em qualquer maquina/browser.
+- Um site responsivo adapta e reorganiza seus elementos conforme o espaço disponível na tela.
+- A página deve se ajustar a diferentes tamanhos de tela, como computador, tablet e smartphone.
+- Responsividade não significa apenas "funcionar em qualquer navegador"; significa principalmente adaptar o layout ao tamanho da tela.
