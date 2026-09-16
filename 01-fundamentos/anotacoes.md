@@ -108,3 +108,9 @@ browser mostra a página
 - O VS Code pode ser usado para editar HTML, CSS e JavaScript e visualizar o resultado no navegador.
 - A extensão **Live Preview**, da Microsoft, permite abrir uma visualização da página dentro do próprio VS Code.
 - O painel pode ser redimensionado para observar como a página se comporta em larguras diferentes.
+
+## CodePen e Fork
+- O CodePen é um editor de código online para escrever HTML, CSS e JavaScript diretamente no navegador.
+- O resultado é exibido em tempo real e não é necessário instalar programas no computador.
+- **Fork** significa criar uma cópia do projeto de outra pessoa no seu próprio perfil para poder modificá-la livremente.
+- No material do professor, a versão gratuita não permite carregar imagens próprias diretamente; elas precisam estar disponíveis via Web.
