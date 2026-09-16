@@ -27,3 +27,19 @@ Anotações sobre a estrutura básica de um documento HTML.
 ## TAGS
     - Elemente usado para estruturar o conteudo.
 > p > meu texto <p = isso e uma tag de paragrafo
+
+## Atributos
+    - Atributos fornecem informações extra ou configuração para uma tag
+    - href= links e src= imagens
+> a href="https://google.com">Google</a = 
+
+    - <a> = tag
+      href = atributo
+     "https://google.com" = valor do atributo
+      Google = conteúdo
+      </a> = fechamento
+
+> img src="foto.jpg" alt="Minha foto">
+- img = tag
+  src = atributo que informa onde está a imagem
+  alt = mensagem para caso a imagem de erro.
