@@ -112,3 +112,13 @@ Sem `method`, um formulário usa GET por padrão, e os campos enviados podem apa
 Com POST, os dados são enviados no corpo da requisição em vez de aparecerem na URL.
 
 Importante: `type="password"` apenas mascara a senha visualmente, e usar POST sozinho não torna uma senha segura. Em aplicações reais ainda são necessários HTTPS e tratamento adequado no servidor.
+
+## Botões de formulário
+
+```html
+<button type="submit">Cadastrar</button>
+<button type="reset">Limpar</button>
+```
+
+- `submit`: envia/submete o formulário.
+- `reset`: restaura os campos para seus valores iniciais.
