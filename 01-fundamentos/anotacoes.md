@@ -16,3 +16,14 @@ Arquivo de anotações do primeiro bloco de estudos.
         Aqui ele só diz que tem uma pagina e um botão
     <h1>Minha Pagina</h1>
     <button>clique aqui</button>
+
+    -CSS:
+        CSS entra pra estilizar/mudar aparencia
+        h1{
+            color:blue;
+        }
+        button{
+            font-size:20px
+        }
+     -JavaScript:
+        -Ele vai fazer por exemplo, quando o usuario clicar vai acontecer alguma coisa.   
