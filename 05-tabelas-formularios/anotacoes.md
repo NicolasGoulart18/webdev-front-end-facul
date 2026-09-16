@@ -21,3 +21,20 @@ As tabelas organizam dados em linhas e colunas.
 <th>    = cabeçalho
 <td>    = dado
 ```
+
+### Exemplo de tabela
+
+```html
+<table>
+    <tr>
+        <th>Produto</th>
+        <th>Preço</th>
+    </tr>
+    <tr>
+        <td>Notebook</td>
+        <td>R$ 3500</td>
+    </tr>
+</table>
+```
+
+Cada `<tr>` cria uma nova linha. As células dessa linha ficam dentro dela usando `<th>` ou `<td>`.
