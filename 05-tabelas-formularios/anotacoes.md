@@ -122,3 +122,15 @@ Importante: `type="password"` apenas mascara a senha visualmente, e usar POST so
 
 - `submit`: envia/submete o formulário.
 - `reset`: restaura os campos para seus valores iniciais.
+
+## Campo de e-mail
+
+> Complemento prático do exercício.
+
+Para um campo de e-mail, usamos:
+
+```html
+<input type="email" id="email" name="email">
+```
+
+O tipo `email` informa ao navegador que o campo espera um endereço de e-mail.
