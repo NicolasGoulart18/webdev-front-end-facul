@@ -133,3 +133,33 @@ Um `id` identifica um elemento específico:
     color: blue;
 }
 ```
+
+## Formas de aplicar CSS
+
+### Inline
+
+```html
+<p style="color: red;">Texto</p>
+```
+
+O estilo fica diretamente no elemento.
+
+### Interno
+
+```html
+<style>
+    p {
+        color: red;
+    }
+</style>
+```
+
+O CSS fica dentro da própria página HTML.
+
+### Externo
+
+```html
+<link rel="stylesheet" href="style.css">
+```
+
+O CSS fica em um arquivo separado. É a forma mais organizada quando várias páginas compartilham os mesmos estilos.
