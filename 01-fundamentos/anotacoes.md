@@ -54,7 +54,21 @@ Arquivo de anotações do primeiro bloco de estudos.
     > O servidor processa as informações e depois entrega codigos HTML,CSS,JavaScript para o navegador
 
 
+### Client 
+
 ## Obeservação sobre CLlient x Serve side
-    - 
+- Muitas páginas são construídas dinamicamente
+- O servidor pode gerar ou montar o conteúdo conforme a     navegação do usuário e depois enviar isso pro navegador.
+- exemplo mental:
+    - Você entra no seu perfil
+        ↓
+servidor busca seus dados
+        ↓
+monta a resposta
+        ↓
+envia para o navegador
+        ↓
+browser mostra a página
+
 
 
