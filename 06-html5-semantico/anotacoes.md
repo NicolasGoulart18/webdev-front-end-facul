@@ -67,3 +67,13 @@ article = conteúdo independente daquele assunto
 ```
 
 Exemplo: em um portal esportivo, `Futebol` pode ser uma `<section>` e cada notícia pode ser um `<article>`.
+
+## `aside` e `footer`
+
+- `<aside>`: conteúdo complementar ao conteúdo principal. Pode aparecer visualmente na lateral, mas seu significado não depende da posição na tela.
+- `<footer>`: rodapé da página ou de uma seção, normalmente usado para informações finais e complementares.
+
+```text
+aside  = conteúdo complementar
+footer = rodapé
+```
