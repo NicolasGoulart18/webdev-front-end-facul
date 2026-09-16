@@ -84,3 +84,19 @@ O arquivo CSS pode ficar separado do HTML e ser ligado no `<head>`:
 
 - `rel="stylesheet"`: informa que o recurso é uma folha de estilos.
 - `href="style.css"`: aponta o caminho do arquivo CSS.
+
+## Propriedades vistas nos exemplos
+
+- `background-color`: cor de fundo.
+- `color`: cor do texto.
+- `font-family`: família de fontes.
+- `text-align`: alinhamento do texto.
+- `text-decoration`: decoração do texto, como sublinhado.
+- `list-style-type: none`: remove os marcadores de uma lista.
+
+Nos exemplos com Flexbox:
+
+- `display: flex`: ativa o layout flexível.
+- `justify-content: space-between`: distribui espaço entre os itens.
+- `align-items: center`: alinha os itens no eixo transversal.
+- `padding`: adiciona espaço interno.
