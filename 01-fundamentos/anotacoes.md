@@ -26,4 +26,17 @@ Arquivo de anotações do primeiro bloco de estudos.
             font-size:20px
         }
      -JavaScript:
-        -Ele vai fazer por exemplo, quando o usuario clicar vai acontecer alguma coisa.   
+        -Ele vai fazer por exemplo, quando o usuario clicar vai acontecer alguma coisa.
+
+
+ ### Interação do usuario com o site
+
+ - USUÁRIO abre o site
+        ↓
+   SERVIDOR envia conteúdo
+        ↓
+   HTML + CSS + JavaScript + mídias
+        ↓
+   BROWSER interpreta
+        ↓
+   página aparece na tela          
