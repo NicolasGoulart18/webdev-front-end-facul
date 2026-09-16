@@ -40,3 +40,13 @@ Arquivo de anotações do primeiro bloco de estudos.
    BROWSER interpreta
         ↓
    página aparece na tela          
+
+### Client Side
+- O que acontece do lado do usuário
+    - HTML: Interpretado pelo browser
+    - CSS: Interpretado pelo browser
+    - JavaScript: Também executado pelo browser
+    > Exemplo: Você abre uma pagina no chrome e o navegador monta tudo visualemte.
+
+
+    
