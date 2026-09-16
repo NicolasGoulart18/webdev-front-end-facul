@@ -1,5 +1,7 @@
 # Bloco 2 — Estrutura HTML
 
+> Status: concluído.
+
 Anotações sobre a estrutura básica de um documento HTML.
 
 ## Estrutura básica do HTML
@@ -188,3 +190,16 @@ Outros exemplos do mesmo padrão:
 ### Ideia para memorizar
 
 > XHTML queria que a estrutura fosse bem formada, explícita e previsível.
+
+## Checklist do bloco
+
+- Estrutura básica do documento HTML.
+- `DOCTYPE`, `html`, `head`, `meta`, `title` e `body`.
+- Tags de abertura e fechamento.
+- Elementos vazios.
+- Atributos e valores.
+- Comentários.
+- Aninhamento correto.
+- Diferenças principais entre HTML e XHTML.
+
+> Observação: XHTML seria retomado mais à frente, mas esse conteúdo já foi adiantado durante o Bloco 2.
