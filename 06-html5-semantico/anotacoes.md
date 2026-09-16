@@ -1,6 +1,6 @@
 # Bloco 6 — HTML5 Semântico
 
-> Status: em andamento.
+> Status: concluído.
 
 Anotações sobre `div`, `span` e elementos semânticos do HTML5.
 
@@ -101,3 +101,16 @@ body
 ```
 
 O `<main>` representa o conteúdo principal e, no modelo estudado no material, deve haver apenas um `<main>` visível por página.
+
+## Checklist do bloco
+
+- `div`: agrupamento genérico em bloco.
+- `span`: agrupamento genérico inline.
+- `header`: cabeçalho.
+- `nav`: navegação.
+- `main`: conteúdo principal.
+- `section`: seção temática.
+- `article`: conteúdo independente.
+- `aside`: conteúdo complementar.
+- `footer`: rodapé.
+- Saber escolher `section` para um tema e `article` para cada conteúdo independente dentro dele.
