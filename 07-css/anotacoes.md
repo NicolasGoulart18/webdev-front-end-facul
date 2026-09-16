@@ -1,6 +1,6 @@
 # Bloco 7 — CSS
 
-> Status: em andamento.
+> Status: concluído.
 
 Anotações sobre HTML antigo/obsoleto, formas de aplicar CSS e conceitos básicos vistos na disciplina.
 
@@ -190,3 +190,16 @@ Exemplo:
 - `padding`: espaço entre conteúdo e borda.
 - `margin`: espaço externo entre o elemento e os demais.
 - `border: 2px solid black`: espessura, estilo e cor da borda.
+
+## Checklist do bloco
+
+- Separação entre HTML e CSS.
+- Tags antigas/obsoletas e substituições modernas.
+- `strong`/`em` e diferença entre significado e aparência.
+- Sintaxe `seletor { propriedade: valor; }`.
+- CSS externo com `<link>`.
+- Seletores de tag, `.class` e `#id`.
+- CSS inline, interno e externo.
+- Propriedades básicas de cor, fonte, lista e alinhamento.
+- Noções de Flexbox presentes nos exemplos da disciplina.
+- Box model: `margin`, `border`, `padding`, `width` e `height`.
