@@ -45,6 +45,20 @@ As tags são elementos usados para estruturar o conteúdo HTML.
 - `</p>`: tag de fechamento.
 - A barra `/` indica o fechamento da tag.
 
+### Elementos vazios
+
+Alguns elementos não envolvem conteúdo textual e, por isso, não possuem uma tag de fechamento separada.
+
+Exemplos importantes:
+
+```html
+<img src="foto.jpg" alt="Minha foto">
+<br>
+<input type="text">
+```
+
+No HTML atual, não é necessário escrever `</img>`, `</br>` ou `</input>`.
+
 ## Atributos
 
 Atributos fornecem informações adicionais ou configurações para uma tag.
