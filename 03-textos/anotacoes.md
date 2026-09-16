@@ -49,3 +49,50 @@ Diferença principal:
 ```
 
 No exemplo do poema usado no material, várias tags `<br>` são usadas para manter cada verso em uma linha diferente. Sem elas, as quebras digitadas no código não seriam preservadas visualmente da mesma forma pelo navegador.
+
+## Tags semânticas de texto
+
+### strong
+
+`<strong>` indica que um trecho possui forte importância semântica. Normalmente aparece em negrito, mas sua função não é apenas visual.
+
+```html
+<strong>Conteúdo importante</strong>
+```
+
+### em
+
+`<em>` indica ênfase no conteúdo. Normalmente aparece em itálico, mas sua função também é semântica.
+
+```html
+<em>Trecho com ênfase</em>
+```
+
+Forma rápida de lembrar:
+
+```text
+<strong> -> importância
+<em>     -> ênfase
+```
+
+O material contrasta esse uso semântico com o uso puramente estético de `<b>` e `<i>`.
+
+### del
+
+`<del>` representa um conteúdo removido ou substituído. Visualmente, navegadores normalmente exibem o trecho riscado.
+
+```html
+<p>
+    Nova data: <del>15/09/2026</del> <strong>30/09/2026</strong>
+</p>
+```
+
+### mark
+
+`<mark>` destaca um trecho do texto, como uma marcação de marca-texto.
+
+```html
+<p>Documento <mark>importante</mark>.</p>
+```
+
+No questionário do material, a tag esperada para uma palavra apresentada como highlighted é `<mark>`.
