@@ -77,3 +77,11 @@ Exemplo: em um portal esportivo, `Futebol` pode ser uma `<section>` e cada notí
 aside  = conteúdo complementar
 footer = rodapé
 ```
+
+## Quando usar semântica e quando usar `div`
+
+Use uma tag semântica quando a região tiver uma função clara, como cabeçalho, navegação, conteúdo principal, seção, artigo, conteúdo complementar ou rodapé.
+
+Use `<div>` quando a necessidade for apenas agrupar elementos para organização, layout ou estilização e não existir uma tag semântica adequada.
+
+Exemplo: uma `div` pode agrupar dois botões para o CSS colocá-los lado a lado.
