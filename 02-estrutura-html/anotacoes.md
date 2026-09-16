@@ -135,3 +135,56 @@ Uma forma simples de visualizar:
     </i>
 </b>
 ```
+
+## HTML x XHTML
+
+O material mostra o XHTML como uma tentativa de tornar os documentos HTML mais rígidos e previsíveis usando regras herdadas do XML.
+
+### Diferença geral
+
+```text
+HTML  -> mais flexível
+XHTML -> sintaxe mais rígida e explícita
+```
+
+No HTML, historicamente os navegadores toleravam vários erros e a linguagem é case-insensitive. No XHTML, as regras passaram a exigir uma escrita muito mais rigorosa.
+
+### Regras importantes do XHTML
+
+1. Tags e nomes de atributos em letras minúsculas.
+2. Aninhamento correto: a última tag aberta deve ser a primeira fechada.
+3. Todo elemento de conteúdo precisa ser fechado.
+4. Elementos vazios usam fechamento explícito com `/`.
+5. Atributos booleanos precisam ter valor explícito entre aspas.
+
+Exemplos:
+
+```html
+<br />
+<img src="foto.jpg" alt="Foto de perfil" />
+<input type="text" />
+```
+
+Em HTML, pode aparecer:
+
+```html
+<input type="checkbox" checked>
+```
+
+No XHTML, a forma exigida era:
+
+```html
+<input type="checkbox" checked="checked" />
+```
+
+Outros exemplos do mesmo padrão:
+
+```html
+<option selected="selected">Opção</option>
+<input disabled="disabled" />
+<select multiple="multiple"></select>
+```
+
+### Ideia para memorizar
+
+> XHTML queria que a estrutura fosse bem formada, explícita e previsível.
