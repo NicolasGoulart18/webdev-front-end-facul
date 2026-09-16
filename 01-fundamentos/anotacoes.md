@@ -74,4 +74,16 @@ envia para o navegador
 browser mostra a página
 
 
+## Como o navegador mostra a pagina:
+>você edita o código
+       
+        ↓
+>salva o arquivo
+
+        ↓
+>abre/volta para o navegador
+
+        ↓
+>atualiza a página
+
 
