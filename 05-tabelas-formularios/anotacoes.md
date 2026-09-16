@@ -98,3 +98,17 @@ Regra para memorizar:
 ```text
 <label for="X">  <->  <input id="X">
 ```
+
+## GET e POST
+
+> Complemento prático estudado durante a aula; este ponto vai além do questionário principal do professor.
+
+Sem `method`, um formulário usa GET por padrão, e os campos enviados podem aparecer na URL.
+
+```html
+<form method="post">
+```
+
+Com POST, os dados são enviados no corpo da requisição em vez de aparecerem na URL.
+
+Importante: `type="password"` apenas mascara a senha visualmente, e usar POST sozinho não torna uma senha segura. Em aplicações reais ainda são necessários HTTPS e tratamento adequado no servidor.
