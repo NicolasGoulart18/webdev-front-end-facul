@@ -75,3 +75,26 @@ Exemplos:
 <input type="time">
 <input type="datetime-local">
 ```
+
+## Atributos de campos
+
+- `name`: identifica o dado do campo quando o formulário é enviado.
+- `size`: altera o tamanho visual de alguns campos de texto.
+- `id`: identifica um elemento dentro do documento.
+
+### Label e associação com o campo
+
+> Complemento prático estudado durante o exercício.
+
+O `<label>` descreve o campo e pode ser associado a um `<input>` usando `for` e `id` com o mesmo valor.
+
+```html
+<label for="nome">Nome:</label>
+<input type="text" id="nome" name="nome">
+```
+
+Regra para memorizar:
+
+```text
+<label for="X">  <->  <input id="X">
+```
