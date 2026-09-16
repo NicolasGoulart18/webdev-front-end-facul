@@ -99,3 +99,7 @@ browser mostra a página
 - Pressione `F12` para abrir as ferramentas de desenvolvedor.
 - Use o botão **Toggle device toolbar** para simular diferentes tamanhos de tela e dispositivos móveis.
 - Depois de alterar o modo de visualização, pode ser necessário atualizar a página para observar o comportamento responsivo.
+
+## Bloco de Notas e Notepad++
+- O professor começa pelo Bloco de Notas por questões didáticas: como o editor não oferece ajuda, o aluno precisa digitar as tags e memorizar melhor a estrutura e a sintaxe do HTML.
+- O Notepad++ já reconhece linguagens como HTML, CSS e JavaScript e oferece recursos de edição que ajudam no desenvolvimento, sem ser uma IDE completa.
