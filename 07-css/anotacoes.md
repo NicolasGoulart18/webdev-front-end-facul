@@ -48,3 +48,28 @@ p {
 ```
 
 Quando a intenção for somente aparência, o CSS deve cuidar do estilo.
+
+## Sintaxe básica do CSS
+
+Uma regra CSS segue a estrutura:
+
+```css
+seletor {
+    propriedade: valor;
+}
+```
+
+Exemplo:
+
+```css
+p {
+    color: red;
+    font-size: 20px;
+}
+```
+
+- `p`: seletor.
+- `color` e `font-size`: propriedades.
+- `red` e `20px`: valores.
+
+Entre propriedade e valor usamos `:` e ao final da declaração usamos `;`.
