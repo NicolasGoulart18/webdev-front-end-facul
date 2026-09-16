@@ -53,3 +53,17 @@ header = cabeçalho
 nav    = navegação
 main   = conteúdo principal
 ```
+
+## `section` e `article`
+
+- `<section>`: seção temática que agrupa conteúdos relacionados.
+- `<article>`: conteúdo independente, que pode fazer sentido por conta própria.
+
+Regra para memorizar:
+
+```text
+section = assunto / grupo temático
+article = conteúdo independente daquele assunto
+```
+
+Exemplo: em um portal esportivo, `Futebol` pode ser uma `<section>` e cada notícia pode ser um `<article>`.
