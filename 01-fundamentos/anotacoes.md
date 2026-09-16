@@ -48,5 +48,13 @@ Arquivo de anotações do primeiro bloco de estudos.
     - JavaScript: Também executado pelo browser
     > Exemplo: Você abre uma pagina no chrome e o navegador monta tudo visualemte.
 
+### Server Side
+- O que acontece no servidor até chegar em você
+ - Linguagens: Python,C, Pearl
+    > O servidor processa as informações e depois entrega codigos HTML,CSS,JavaScript para o navegador
 
-    
+
+## Obeservação sobre CLlient x Serve side
+    - 
+
+
