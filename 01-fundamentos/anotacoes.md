@@ -87,3 +87,5 @@ browser mostra a página
 >atualiza a página
 
 
+## Responsividade
+- Um site responsivo pode funcionar em qualquer maquina/browser.
