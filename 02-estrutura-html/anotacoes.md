@@ -2,7 +2,7 @@
 
 > Status: concluído.
 
-Anotações sobre a estrutura básica de um documento HTML.
+Este bloco reúne a estrutura básica de um documento HTML e os conceitos estudados antes de avançar para conteúdo textual.
 
 ## Estrutura básica do HTML
 
@@ -20,11 +20,11 @@ Anotações sobre a estrutura básica de um documento HTML.
 ```
 
 - `<!DOCTYPE html>`: informa ao navegador que o documento utiliza HTML5.
-- `<html>`: elemento que engloba o documento HTML.
+- `<html>`: engloba o documento HTML.
 - `<head>`: guarda informações sobre a página que normalmente não aparecem no conteúdo principal.
 - `<meta charset="UTF-8">`: define a codificação de caracteres UTF-8.
 - `<title>`: define o texto exibido na aba do navegador.
-- `<body>`: contém o conteúdo exibido ao usuário, como textos, imagens, links, botões e tabelas.
+- `<body>`: contém o conteúdo visível da página, como textos, imagens, links, botões e tabelas.
 
 ### Forma rápida de lembrar
 
@@ -36,22 +36,20 @@ HTML
 
 ## Tags
 
-As tags são elementos usados para estruturar o conteúdo HTML.
+Tags são elementos usados para estruturar o conteúdo HTML.
 
 ```html
 <p>Meu texto</p>
 ```
 
-- `<p>`: tag de abertura.
+- `<p>`: abertura da tag.
 - `Meu texto`: conteúdo.
-- `</p>`: tag de fechamento.
-- A barra `/` indica o fechamento da tag.
+- `</p>`: fechamento da tag.
+- A barra `/` indica o fechamento.
 
-### Elementos vazios
+## Elementos sem fechamento separado
 
-Alguns elementos não envolvem conteúdo textual e, por isso, não possuem uma tag de fechamento separada.
-
-Exemplos importantes:
+Alguns elementos não possuem uma tag de fechamento separada.
 
 ```html
 <img src="foto.jpg" alt="Minha foto">
@@ -59,11 +57,11 @@ Exemplos importantes:
 <input type="text">
 ```
 
-No HTML atual, não é necessário escrever `</img>`, `</br>` ou `</input>`.
+Portanto, no HTML, não usamos `</img>`, `</br>` ou `</input>`.
 
 ## Atributos
 
-Atributos fornecem informações adicionais ou configurações para uma tag.
+Atributos fornecem informações extras ou configurações para uma tag.
 
 ```html
 <a href="https://google.com">Google</a>
@@ -82,12 +80,12 @@ Outro exemplo:
 ```
 
 - `<img>`: tag de imagem.
-- `src`: informa o caminho ou URL da imagem.
-- `alt`: fornece texto alternativo, importante para acessibilidade.
+- `src`: informa onde está a imagem.
+- `alt`: fornece um texto alternativo para a imagem.
 
 ## Comentários
 
-Comentários ficam no código para organização e documentação e não são exibidos normalmente na página.
+Comentários servem para organizar e documentar o código e não aparecem normalmente na página.
 
 ```html
 <!-- Este é um comentário -->
@@ -104,7 +102,7 @@ Exemplo:
 
 ## Aninhamento de tags
 
-Aninhamento é quando uma tag fica dentro de outra tag.
+Aninhamento acontece quando uma tag fica dentro de outra.
 
 ```html
 <p>
@@ -112,7 +110,7 @@ Aninhamento é quando uma tag fica dentro de outra tag.
 </p>
 ```
 
-A regra principal é:
+Regra principal:
 
 > A última tag que abriu é a primeira que deve ser fechada.
 
@@ -128,52 +126,38 @@ Incorreto:
 <b><i>Texto</b></i>
 ```
 
-Uma forma simples de visualizar:
-
-```text
-<b>
-    <i>
-        texto
-    </i>
-</b>
-```
-
 ## HTML x XHTML
 
-O material mostra o XHTML como uma tentativa de tornar os documentos HTML mais rígidos e previsíveis usando regras herdadas do XML.
-
-### Diferença geral
+O XHTML utiliza regras mais rígidas de escrita, aproximando a sintaxe das exigências do XML.
 
 ```text
 HTML  -> mais flexível
 XHTML -> sintaxe mais rígida e explícita
 ```
 
-No HTML, historicamente os navegadores toleravam vários erros e a linguagem é case-insensitive. No XHTML, as regras passaram a exigir uma escrita muito mais rigorosa.
-
 ### Regras importantes do XHTML
 
-1. Tags e nomes de atributos em letras minúsculas.
-2. Aninhamento correto: a última tag aberta deve ser a primeira fechada.
-3. Todo elemento de conteúdo precisa ser fechado.
-4. Elementos vazios usam fechamento explícito com `/`.
-5. Atributos booleanos precisam ter valor explícito entre aspas.
+1. Tags e atributos escritos em letras minúsculas.
+2. Aninhamento correto.
+3. Elementos precisam ser fechados corretamente.
+4. Elementos vazios usam `/` no fechamento.
+5. Atributos booleanos aparecem com valor explícito.
 
 Exemplos:
 
 ```html
 <br />
-<img src="foto.jpg" alt="Foto de perfil" />
+<img src="foto.jpg" alt="Minha foto" />
 <input type="text" />
 ```
 
-Em HTML, pode aparecer:
+Em HTML:
 
 ```html
 <input type="checkbox" checked>
 ```
 
-No XHTML, a forma exigida era:
+Em XHTML:
 
 ```html
 <input type="checkbox" checked="checked" />
@@ -189,17 +173,17 @@ Outros exemplos do mesmo padrão:
 
 ### Ideia para memorizar
 
-> XHTML queria que a estrutura fosse bem formada, explícita e previsível.
+> XHTML exige uma estrutura mais rígida, explícita e corretamente aninhada.
 
 ## Checklist do bloco
 
 - Estrutura básica do documento HTML.
 - `DOCTYPE`, `html`, `head`, `meta`, `title` e `body`.
 - Tags de abertura e fechamento.
-- Elementos vazios.
+- Elementos sem fechamento separado.
 - Atributos e valores.
 - Comentários.
 - Aninhamento correto.
 - Diferenças principais entre HTML e XHTML.
 
-> Observação: XHTML seria retomado mais à frente, mas esse conteúdo já foi adiantado durante o Bloco 2.
+> XHTML foi adiantado neste bloco e não precisa ser estudado novamente do zero mais à frente.
