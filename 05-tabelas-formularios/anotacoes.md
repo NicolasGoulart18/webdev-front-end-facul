@@ -55,3 +55,23 @@ Exemplo básico:
     <button>Enviar</button>
 </form>
 ```
+
+## Tipos de input estudados
+
+```text
+text           -> texto comum
+password       -> senha com caracteres mascarados visualmente
+date           -> data
+time           -> horário
+datetime-local -> data e horário juntos
+```
+
+Exemplos:
+
+```html
+<input type="text">
+<input type="password">
+<input type="date">
+<input type="time">
+<input type="datetime-local">
+```
