@@ -100,3 +100,36 @@ Nos exemplos com Flexbox:
 - `justify-content: space-between`: distribui espaço entre os itens.
 - `align-items: center`: alinha os itens no eixo transversal.
 - `padding`: adiciona espaço interno.
+
+## Seletores de tag, classe e id
+
+```text
+p       -> seletor de tag
+.card   -> seletor de classe
+#topo   -> seletor de id
+```
+
+Uma `class` pode ser reutilizada em vários elementos:
+
+```html
+<p class="aviso">Atenção</p>
+<p class="aviso">Cuidado</p>
+```
+
+```css
+.aviso {
+    color: red;
+}
+```
+
+Um `id` identifica um elemento específico:
+
+```html
+<h1 id="titulo">Meu site</h1>
+```
+
+```css
+#titulo {
+    color: blue;
+}
+```
