@@ -28,3 +28,24 @@ A tag `<p>` delimita um parágrafo de texto.
 ```
 
 Um parágrafo representa um bloco de texto, não apenas uma quebra de linha.
+
+## Quebra de linha: br
+
+A tag `<br>` cria uma quebra de linha dentro do conteúdo.
+
+```html
+<p>
+    Linha 1<br>
+    Linha 2<br>
+    Linha 3
+</p>
+```
+
+Diferença principal:
+
+```text
+<p>  -> cria/delimita um parágrafo
+<br> -> apenas quebra a linha
+```
+
+No exemplo do poema usado no material, várias tags `<br>` são usadas para manter cada verso em uma linha diferente. Sem elas, as quebras digitadas no código não seriam preservadas visualmente da mesma forma pelo navegador.
