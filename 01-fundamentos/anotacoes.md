@@ -11,3 +11,8 @@ Arquivo de anotações do primeiro bloco de estudos.
 
 ### JavaScript
     -> Coisas que funcionam/interagem
+### Exemplo simples:
+    -HTML:
+        Aqui ele só diz que tem uma pagina e um botão
+    <h1>Minha Pagina</h1>
+    <button>clique aqui</button>
