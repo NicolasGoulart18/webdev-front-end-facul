@@ -85,3 +85,19 @@ Use uma tag semântica quando a região tiver uma função clara, como cabeçalh
 Use `<div>` quando a necessidade for apenas agrupar elementos para organização, layout ou estilização e não existir uma tag semântica adequada.
 
 Exemplo: uma `div` pode agrupar dois botões para o CSS colocá-los lado a lado.
+
+## Estrutura semântica de uma página
+
+```text
+body
+├── header
+├── nav
+├── main
+│   ├── section
+│   │   ├── article
+│   │   └── article
+│   └── aside
+└── footer
+```
+
+O `<main>` representa o conteúdo principal e, no modelo estudado no material, deve haver apenas um `<main>` visível por página.
