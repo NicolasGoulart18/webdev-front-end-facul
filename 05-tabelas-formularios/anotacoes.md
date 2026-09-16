@@ -38,3 +38,20 @@ As tabelas organizam dados em linhas e colunas.
 ```
 
 Cada `<tr>` cria uma nova linha. As células dessa linha ficam dentro dela usando `<th>` ou `<td>`.
+
+## Formulários
+
+Formulários permitem coletar dados digitados ou selecionados pelo usuário.
+
+- `<form>`: agrupa os campos do formulário.
+- `<input>`: cria um campo de entrada de dados.
+- `<button>`: cria um botão clicável.
+
+Exemplo básico:
+
+```html
+<form>
+    <input type="text">
+    <button>Enviar</button>
+</form>
+```
