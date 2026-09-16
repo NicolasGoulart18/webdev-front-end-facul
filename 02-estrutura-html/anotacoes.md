@@ -43,3 +43,14 @@ Anotações sobre a estrutura básica de um documento HTML.
 - img = tag
   src = atributo que informa onde está a imagem
   alt = mensagem para caso a imagem de erro.
+
+## Comentarios
+    - <!-- Este é um comentário -->
+    
+    -Exemplo prático:
+        <body>
+
+        <!-- Título principal da página -->
+         <h1>Minha faculdade</h1>
+
+        </body>
