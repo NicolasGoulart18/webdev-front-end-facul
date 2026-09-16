@@ -37,3 +37,14 @@ p {
     text-align: center;
 }
 ```
+
+## Destaque visual e significado
+
+`<b>` e `<i>` podem representar apresentação visual, enquanto `<strong>` e `<em>` são preferíveis quando existe significado semântico de importância ou ênfase.
+
+```html
+<strong>Importante</strong>
+<em>Ênfase</em>
+```
+
+Quando a intenção for somente aparência, o CSS deve cuidar do estilo.
