@@ -23,3 +23,7 @@ Anotações sobre a estrutura básica de um documento HTML.
     > title>minha pagina</>title = nome que aparece no navegador
     - Depois vem o body:
     > Body =  contém aquilo que realmente será exibido para o usuário na página: textos, imagens, links, botões, tabelas etc.
+
+## TAGS
+    - Elemente usado para estruturar o conteudo.
+> p > meu texto <p = isso e uma tag de paragrafo
