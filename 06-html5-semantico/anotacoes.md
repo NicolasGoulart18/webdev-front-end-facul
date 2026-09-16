@@ -21,3 +21,21 @@ As duas tags agrupam conteúdo, mas não informam por si só qual é a função 
 
 <p>Estou estudando <span>HTML</span> para a prova.</p>
 ```
+
+## HTML5 semântico
+
+Elementos semânticos descrevem a função do conteúdo na estrutura da página. Em vez de usar `div` para tudo, usamos uma tag específica quando existe um significado adequado.
+
+Principais elementos estudados:
+
+```text
+header
+nav
+main
+section
+article
+aside
+footer
+```
+
+Essa estrutura torna o documento mais claro e ajuda a representar corretamente a organização do conteúdo.
