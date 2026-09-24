@@ -14,6 +14,7 @@ A organização segue blocos de estudo para HTML, CSS e revisão da prova. Os ar
 - `06-html5-semantico/` — HTML5 e tags semânticas
 - `07-css/` — introdução e prática com CSS
 - `08-revisao/` — questões e revisão final
+- `09-layouts-flexbox/` — layouts com `div` e CSS Flexbox
 
 ## Objetivo
 
