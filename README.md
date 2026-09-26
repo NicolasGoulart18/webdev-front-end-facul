@@ -1,10 +1,14 @@
-# WebDev Front-End - Faculdade
+# WebDev Front-End — Faculdade
 
-Repositório de estudos da disciplina de desenvolvimento front-end da faculdade.
+Repositório utilizado para organizar os estudos da disciplina de desenvolvimento front-end da faculdade.
 
-A organização segue blocos de estudo para HTML, CSS e revisão da prova. Os arquivos serão preenchidos aos poucos conforme os conteúdos forem estudados.
+O conteúdo é dividido em blocos para acompanhar a evolução das aulas, exercícios e revisões de HTML e CSS.
 
-## Estrutura
+## Objetivo
+
+Centralizar exemplos, exercícios e anotações da disciplina em uma estrutura simples, mantendo o histórico de aprendizado através dos commits.
+
+## Estrutura de estudos
 
 - `01-fundamentos/` — fundamentos da Web, HTML, CSS, JavaScript e client-side/server-side
 - `02-estrutura-html/` — estrutura básica de um documento HTML
@@ -13,9 +17,35 @@ A organização segue blocos de estudo para HTML, CSS e revisão da prova. Os ar
 - `05-tabelas-formularios/` — tabelas e formulários
 - `06-html5-semantico/` — HTML5 e tags semânticas
 - `07-css/` — introdução e prática com CSS
-- `08-revisao/` — questões e revisão final
+- `08-revisao/` — questões e revisão dos conteúdos
 - `09-layouts-flexbox/` — layouts com `div` e CSS Flexbox
 
-## Objetivo
+## Conceitos praticados
 
-Registrar a evolução dos estudos com exemplos práticos, anotações e commits separados por etapa de aprendizado.
+- Estrutura de documentos HTML
+- HTML semântico
+- Links, imagens e listas
+- Tabelas
+- Formulários
+- Seletores CSS
+- Classes e IDs
+- Box model
+- Espaçamento com `margin` e `padding`
+- Bordas
+- Flexbox
+- Organização de layouts
+
+## Método de estudo
+
+Cada novo conteúdo é trabalhado em etapas:
+
+1. Revisão da teoria.
+2. Exemplo pequeno.
+3. Implementação prática.
+4. Exercício.
+5. Correção e organização.
+6. Commit da etapa concluída.
+
+## Status
+
+Repositório em desenvolvimento contínuo conforme o avanço da disciplina.
