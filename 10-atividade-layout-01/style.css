@@ -51,6 +51,12 @@
     cursor: pointer;
 }
 
+.item-menu:hover{
+    border-radius: 5px;
+    background-color: #2470BA;
+    color:#f6f6f6;
+}
+
 .main{
     flex:3;
     padding: 20px;
