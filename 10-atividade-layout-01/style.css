@@ -128,7 +128,7 @@ body.dark-mode{
 
 body.dark-mode .main,
 body.dark-mode .sidebar-left,
-body.dark-mode.sidebar-right{
+body.dark-mode .sidebar-right{
     background-color: #1f1f1f;
     color: #f6f6f6;
 }
