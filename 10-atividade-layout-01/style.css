@@ -86,3 +86,10 @@ body{
     color: #f6f6f6;
     text-align: center;
 }
+
+.noticia {
+    background-color: #f6f6f6;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
