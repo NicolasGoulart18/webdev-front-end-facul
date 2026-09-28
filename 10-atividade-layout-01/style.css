@@ -40,7 +40,7 @@ body{
     text-decoration: none;
     color:#f6f6f6;
     padding: 6px 10px;
-    transition: trasnform 0.2s,background-color 0.2s;
+    transition: transform 0.2s, background-color 0.2s;
 }
 
 .nav-link:hover{
@@ -49,7 +49,10 @@ body{
     transform: scale(1.05);
 }
 
-
+.nav-link.ativo{
+    background-color: #2470BA;
+    border-radius: 5px;
+}
 
 .row{
     display: flex;
