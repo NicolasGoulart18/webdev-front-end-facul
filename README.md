@@ -19,6 +19,7 @@ Centralizar exemplos, exercícios e anotações da disciplina em uma estrutura s
 - `07-css/` — introdução e prática com CSS
 - `08-revisao/` — questões e revisão dos conteúdos
 - `09-layouts-flexbox/` — layouts com `div` e CSS Flexbox
+- `10-atividade-layout-01/` — atividade prática de duas páginas usando `div` e Flexbox
 
 ## Conceitos praticados
 
