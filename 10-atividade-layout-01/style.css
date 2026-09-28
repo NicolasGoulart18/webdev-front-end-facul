@@ -10,6 +10,7 @@ body{
 
 .header h1{
     color:#f6f6f6;
+    margin: 0;
 }
 
 .container_geral{
@@ -61,6 +62,11 @@ body{
     gap: 6px;
 }
 
+.sidebar-right a{
+    color:var(--primary-color);
+    text-decoration: none;
+}
+
 .item-menu{
     padding: 10px;
     cursor: pointer;
@@ -85,6 +91,7 @@ body{
     padding: 20px;
     color: #f6f6f6;
     text-align: center;
+    margin:0
 }
 
 .noticia {
