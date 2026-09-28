@@ -77,3 +77,9 @@ body{
     padding: 20px;
     background-color: #e0e0e0;
 }
+.footer {
+    background-color: var(--primary-color);
+    padding: 20px;
+    color: #f6f6f6;
+    text-align: center;
+}
