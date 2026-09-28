@@ -7,3 +7,8 @@
     display: flex;
     gap:10px;
 }
+.sidebar-left{
+    flex: 1;
+    padding: 20px;
+    background-color: #e0e0e0;
+}
