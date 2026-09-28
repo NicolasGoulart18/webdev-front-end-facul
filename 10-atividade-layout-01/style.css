@@ -72,11 +72,14 @@ body{
     color:#f6f6f6;
 }
 
-.main{
-    flex:3;
+.main {
+    flex: 3;
     padding: 20px;
     background-color: #e0e0e0;
+    min-height: 350px;
 }
+
+
 .footer {
     background-color: var(--primary-color);
     padding: 20px;
