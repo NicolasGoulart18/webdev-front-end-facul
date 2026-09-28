@@ -21,6 +21,8 @@ body{
     gap:10px;
     border-radius: 10px;
     min-height: 100vh;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 
@@ -30,6 +32,7 @@ body{
     align-items: center;
     background-color: var(--primary-color);
     padding: 20px;
+    border-radius: 10px;
 }
 
 
@@ -109,7 +112,8 @@ body{
     padding: 5px;
     color: #f6f6f6;
     text-align: center;
-    margin:0
+    margin:0;
+    border-radius: 10px;
 }
 
 .noticia {
@@ -129,15 +133,16 @@ body.dark-mode{
 body.dark-mode .main,
 body.dark-mode .sidebar-left,
 body.dark-mode .sidebar-right {
-    background-color: #1f1f1f;
+    background-color: #242424;
     color: #f6f6f6;
-    border: 1px solid #333;
+    border: 1px solid #3a3a3a;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
 }
 
 body.dark-mode .noticia{
-    background-color: #1f1f1f;
+    background-color: #2d2d2d;
     color: #f6f6f6;
+    border: 1px solid #3a3a3a;
 }
 
 #theme-toggle{
