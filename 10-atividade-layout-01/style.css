@@ -13,6 +13,22 @@
     background-color: var(--primary-color);
     padding: 20px;
 }
+.navegacao {
+    display: flex;
+    gap:10px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color:#f6f6f6;
+    padding: 6px 10px;
+}
+
+.nav-link:hover{
+    border-radius: 5px;
+    background-color: #2470BA;
+}
+
 .row{
     display: flex;
     gap:10px;
