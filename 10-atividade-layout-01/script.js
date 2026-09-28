@@ -1,6 +1,9 @@
 const botaotema = document.getElementById("theme-toggle");
 const temaSalvo = localStorage.getItem("tema");
-const somTema = new Audio("assets/Fahhhh.mp3");
+const somTema = new Audio("./assets/Fahhhh.mp3");
+
+somTema.preload = "auto";
+somTema.volume = 1;
 
 if (temaSalvo === "escuro") {
     document.body.classList.add("dark-mode");
@@ -10,8 +13,12 @@ if (temaSalvo === "escuro") {
 botaotema.addEventListener("click", function () {
     document.body.classList.toggle("dark-mode");
 
+    somTema.pause();
     somTema.currentTime = 0;
-    somTema.play();
+
+    somTema.play().catch(function (erro) {
+        console.error("Não foi possível reproduzir o som:", erro);
+    });
 
     if (document.body.classList.contains("dark-mode")) {
         botaotema.textContent = "🌙";
