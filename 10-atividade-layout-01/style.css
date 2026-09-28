@@ -6,6 +6,7 @@
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f4f6;
 }
 
 .header h1{
@@ -17,6 +18,7 @@ body{
     display: flex;
     flex-direction: column;
     gap:10px;
+    border-radius: 10px;
 }
 
 
@@ -38,12 +40,16 @@ body{
     text-decoration: none;
     color:#f6f6f6;
     padding: 6px 10px;
+    transition: trasnform 0.2s,background-color 0.2s;
 }
 
 .nav-link:hover{
     border-radius: 5px;
     background-color: #2470BA;
+    transform: scale(1.05);
 }
+
+
 
 .row{
     display: flex;
@@ -60,6 +66,12 @@ body{
     display: flex;
     flex-direction: column;
     gap: 6px;
+}
+
+.main,
+.sidebar-left,
+.sidebar-right{
+    border-radius: 10px;
 }
 
 .sidebar-right a{
