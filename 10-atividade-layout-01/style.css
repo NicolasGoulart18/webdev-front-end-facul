@@ -1,6 +1,10 @@
 :root{
     --primary-color: #2B31FF;
 }
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .container_geral{
     display: flex;
     flex-direction: column;
