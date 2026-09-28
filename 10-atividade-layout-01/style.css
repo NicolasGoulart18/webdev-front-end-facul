@@ -126,14 +126,21 @@ body.dark-mode{
 }
 
 
-body.dark-mode.main,
-body.dark-mode.sidebar-left,
+body.dark-mode .main,
+body.dark-mode .sidebar-left,
 body.dark-mode.sidebar-right{
     background-color: #1f1f1f;
     color: #f6f6f6;
 }
 
-body.dark-mode.noticia{
+body.dark-mode .noticia{
     background-color: #1f1f1f;
     color: #f6f6f6;
+}
+
+#theme-toggle{
+    border:none;
+    background-color:transparent;
+    cursor:pointer;
+    font-size: 24px;
 }
