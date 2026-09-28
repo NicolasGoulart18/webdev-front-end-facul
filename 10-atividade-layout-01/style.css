@@ -12,3 +12,8 @@
     padding: 20px;
     background-color: #e0e0e0;
 }
+.sidebar-right{
+    flex: 1;
+    padding: 20px;
+    background-color: #e0e0e0;
+}
