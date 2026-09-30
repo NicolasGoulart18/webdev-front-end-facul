@@ -28,3 +28,5 @@ botaotema.addEventListener("click", function () {
         localStorage.setItem("tema", "claro");
     }
 });
+
+
