@@ -7,7 +7,7 @@ somTema.volume = 1;
 
 if (temaSalvo === "escuro") {
     document.body.classList.add("dark-mode");
-    botaotema.textContent = "Modo Escuro";
+    botaotema.textContent = "Modo Claro";
 }
 
 botaotema.addEventListener("click", function () {

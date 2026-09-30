@@ -200,6 +200,26 @@ body.dark-mode .noticia{
     bottom: 10px !important;
 }
 
+.navegacao{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+
+#theme-toggle {
+    border: none;
+    background-color: #2470BA;
+    color: #f6f6f6;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#theme-toggle:hover {
+    background-color: #1a4d99;
+    transform: scale(1.05);
+}
 
 
 
