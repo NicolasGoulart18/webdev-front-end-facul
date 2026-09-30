@@ -42,7 +42,7 @@ body{
 
 .navegacao {
     display: flex;
-    aling-items: center;
+    align-items: center;
     gap:10px;
 }
 
