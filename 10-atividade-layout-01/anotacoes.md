@@ -21,3 +21,6 @@ A atividade será construída em etapas. Primeiro será feita a estrutura HTML, 
 > O código da atividade será desenvolvido durante o estudo, sem copiar uma solução pronta.
 
 -swiper: Serve para fazer carrocel de banner etc..
+width = ocupa toda a largura do slide.
+height = ocupa toda a altura dos 200px.
+object-fit: cover = mantém a proporção original da imagem e corta só o excesso necessário, em vez de esticar/deformar.
