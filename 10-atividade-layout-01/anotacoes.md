@@ -19,3 +19,5 @@ Requisitos informados pelo professor:
 A atividade será construída em etapas. Primeiro será feita a estrutura HTML, depois o Flexbox, a navegação entre páginas, os links externos e, por último, o acabamento visual.
 
 > O código da atividade será desenvolvido durante o estudo, sem copiar uma solução pronta.
+
+-swiper: Serve para fazer carrocel de banner etc..
