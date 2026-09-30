@@ -7,7 +7,7 @@ somTema.volume = 1;
 
 if (temaSalvo === "escuro") {
     document.body.classList.add("dark-mode");
-    botaotema.textContent = "🌙";
+    botaotema.textContent = "Modo Escuro";
 }
 
 botaotema.addEventListener("click", function () {
@@ -21,10 +21,10 @@ botaotema.addEventListener("click", function () {
     });
 
     if (document.body.classList.contains("dark-mode")) {
-        botaotema.textContent = "🌙";
+        botaotema.textContent = "Modo Claro";
         localStorage.setItem("tema", "escuro");
     } else {
-        botaotema.textContent = "☀️";
+        botaotema.textContent = "Modo Escuro";
         localStorage.setItem("tema", "claro");
     }
 });
