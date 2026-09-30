@@ -31,6 +31,8 @@ botaotema.addEventListener("click", function () {
 
 const swiper = new Swiper(".swiper", {
     loop: true,
-    threshold: 5,
-    longSwipesRatio: 0.2,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
 });
