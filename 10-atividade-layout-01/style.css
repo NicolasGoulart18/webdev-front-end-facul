@@ -42,6 +42,7 @@ body{
 
 .navegacao {
     display: flex;
+    aling-items: center;
     gap:10px;
 }
 
@@ -156,12 +157,7 @@ body.dark-mode .noticia{
     border: 1px solid #3a3a3a;
 }
 
-#theme-toggle{
-    border:none;
-    background-color:transparent;
-    cursor:pointer;
-    font-size: 24px;
-}
+
 
 .swiper{
     width: 100%;
@@ -200,11 +196,6 @@ body.dark-mode .noticia{
     bottom: 10px !important;
 }
 
-.navegacao{
-    display: flex;
-    gap:10px;
-    align-items: center;
-}
 
 #theme-toggle {
     border: none;
