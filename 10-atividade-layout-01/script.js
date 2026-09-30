@@ -29,4 +29,6 @@ botaotema.addEventListener("click", function () {
     }
 });
 
-
+const swiper = new Swiper(".swiper", {
+    loop: true,
+});
