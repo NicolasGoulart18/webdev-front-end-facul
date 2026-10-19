@@ -1,18 +1,24 @@
-.destaque{
+.destaque {
     font-weight: bold;
-    background:linear-gradient(45deg,#00ff7f, #007fff);
+    background: linear-gradient(45deg, #00ff7f, #007fff);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     text-shadow: 5px 5px 2px black;
 }
-<!--text-shadow: 0 0 10px
-0 (nao desloca horizontalmente)
-0 (nao desloca verticalmente)
-rgba(cor)-->
 
-<!--linear-gradient      → cria o degradê
-background-clip:text → recorta o fundo no formato do texto
-color:transparent    → revela o degradê nas letras
-text-shadow          → adiciona sombra/brilho
--->
+/*
+text-shadow: 5px 5px 2px black;
+
+1º 5px -> deslocamento horizontal
+2º 5px -> deslocamento vertical
+2px    -> desfoque
+black  -> cor da sombra
+*/
+
+/*
+linear-gradient()      -> cria o degradê
+background-clip: text  -> recorta o background no formato do texto
+color: transparent     -> deixa a cor original transparente e revela o degradê
+text-shadow            -> adiciona sombra ou brilho ao texto
+*/
