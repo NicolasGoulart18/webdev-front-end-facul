@@ -18,9 +18,9 @@ Centralizar exemplos, exercícios e anotações de HTML, CSS e JavaScript, mante
 - `06-html5-semantico/` — `div`, `span` e HTML semântico.
 - `07-css/` — fundamentos e prática com CSS.
 - `08-revisao/` — questões e revisão dos conteúdos.
-- `09-layouts-flexbox/` — construção de layouts com `div` e Flexbox, incluindo revisão para a prova de 28/10.
+- `09-layouts-flexbox/` — layouts com `div`, Flexbox e efeitos CSS. **Bloco concluído.**
 - `10-atividade-layout-01/` — projeto **Tech Day**, com duas páginas e layout em Flexbox.
-- `11-introducao-javascript/` — matéria de introdução ao JavaScript, com anotações e exercícios para a prova de 28/10.
+- `11-introducao-javascript/` — matéria de introdução ao JavaScript para a prova de 28/10.
 
 ## Conteúdos praticados
 
@@ -38,16 +38,25 @@ Centralizar exemplos, exercícios e anotações de HTML, CSS e JavaScript, mante
 
 ### CSS
 
-- seletores;
-- classes e IDs;
+- seletores, classes e IDs;
+- seletor universal `*`;
 - box model;
+- `box-sizing: border-box`;
 - `margin` e `padding`;
 - bordas;
+- `rem`;
+- `line-height`;
 - variáveis CSS;
 - `:hover`;
 - transições e transformações;
 - Flexbox;
 - proporções com `flex`;
+- `gap`, `justify-content` e `align-items`;
+- `min()` para largura responsiva;
+- `background` e `background-color`;
+- `linear-gradient()`;
+- `background-clip: text`;
+- `text-shadow`;
 - `aspect-ratio`;
 - `object-fit`;
 - controle de overflow.
@@ -92,8 +101,8 @@ O diretório possui um `README.md` próprio com a documentação do projeto.
 
 ## Preparação para a prova de 28/10
 
-- revisão de Layouts em `09-layouts-flexbox/revisao-prova-28-10.md`;
-- introdução ao JavaScript em `11-introducao-javascript/anotacoes.md`;
+- **Layouts: concluído** em `09-layouts-flexbox/revisao-prova-28-10.md`;
+- Introdução ao JavaScript: próximo bloco em `11-introducao-javascript/anotacoes.md`;
 - exercícios de JavaScript em `11-introducao-javascript/exercicios.md`.
 
 ## Método de estudo
@@ -109,4 +118,4 @@ Cada novo conteúdo é trabalhado em etapas:
 
 ## Status
 
-Repositório em desenvolvimento contínuo conforme o avanço da disciplina.
+Layouts concluído. Próxima etapa: Introdução ao JavaScript.
