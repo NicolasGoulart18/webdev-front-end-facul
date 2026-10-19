@@ -20,7 +20,24 @@ Centralizar exemplos, exercícios e anotações de HTML, CSS e JavaScript, mante
 - `08-revisao/` — questões e revisão dos conteúdos.
 - `09-layouts-flexbox/` — layouts com `div`, Flexbox e efeitos CSS. **Bloco concluído.**
 - `10-atividade-layout-01/` — projeto **Tech Day**, com duas páginas e layout em Flexbox.
-- `11-introducao-javascript/` — matéria de introdução ao JavaScript para a prova de 28/10.
+- `11-introducao-javascript/` — bloco organizado para teoria, exemplos, exercícios e revisão de JavaScript.
+
+## Estrutura do bloco de JavaScript
+
+```text
+11-introducao-javascript/
+├── README.md
+├── anotacoes.md
+├── exercicios.md
+├── 01-primeiros-passos/
+├── 02-variaveis-saida/
+├── 03-operadores/
+├── 04-dom-eventos-validacao-apis/
+├── 05-let-const-var-escopo/
+└── 06-revisao-prova/
+```
+
+Cada pasta prática possui arquivos `index.html` e `script.js` próprios para os testes no VS Code.
 
 ## Conteúdos praticados
 
@@ -63,7 +80,7 @@ Centralizar exemplos, exercícios e anotações de HTML, CSS e JavaScript, mante
 
 ### JavaScript
 
-No projeto Tech Day também comecei a aplicar JavaScript em funcionalidades simples:
+No projeto Tech Day já foram aplicadas algumas funcionalidades JavaScript:
 
 - eventos de clique;
 - manipulação de classes;
@@ -72,7 +89,7 @@ No projeto Tech Day também comecei a aplicar JavaScript em funcionalidades simp
 - `localStorage`;
 - reprodução de áudio.
 
-O estudo formal de introdução ao JavaScript está organizado em `11-introducao-javascript/`.
+O estudo formal agora começa em `11-introducao-javascript/`.
 
 ### Biblioteca externa
 
@@ -97,13 +114,11 @@ Atividade prática com:
 - carrossel de banners com Swiper;
 - imagens com proporção controlada.
 
-O diretório possui um `README.md` próprio com a documentação do projeto.
-
 ## Preparação para a prova de 28/10
 
 - **Layouts: concluído** em `09-layouts-flexbox/revisao-prova-28-10.md`;
-- Introdução ao JavaScript: próximo bloco em `11-introducao-javascript/anotacoes.md`;
-- exercícios de JavaScript em `11-introducao-javascript/exercicios.md`.
+- **JavaScript: estrutura pronta para iniciar** em `11-introducao-javascript/`;
+- revisão final de JavaScript em `11-introducao-javascript/06-revisao-prova/`.
 
 ## Método de estudo
 
