@@ -4,7 +4,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    text-shadow: 0 0 10px #000;
+    text-shadow: 5px 5px 2px black;
 }
 <!--text-shadow: 0 0 10px
 0 (nao desloca horizontalmente)
