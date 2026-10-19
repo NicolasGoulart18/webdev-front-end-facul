@@ -6,3 +6,7 @@
     color: transparent;
     text-shadow: 0 0 10px #000;
 }
+<!--text-shadow: 0 0 10px
+0 (nao desloca horizontalmente)
+0 (nao desloca verticalmente)
+rgba(cor)-->
