@@ -2,7 +2,7 @@
 
 > Prova: 28/10/2026
 
-Este arquivo será usado para acompanhar a revisão do conteúdo de Layouts sem misturar o que já foi estudado com o conteúdo novo.
+Este arquivo acompanha a revisão do conteúdo de Layouts, separando o que já foi estudado do que ainda falta.
 
 ## Já revisado
 
@@ -17,14 +17,32 @@ Este arquivo será usado para acompanhar a revisão do conteúdo de Layouts sem 
 - `margin: 0 auto` e centralização horizontal
 - diferença entre `div` e `span`
 
+## Conteúdo novo já estudado
+
+- `linear-gradient()`
+- direção do degradê com `deg`
+- `background-clip: text`
+- `-webkit-background-clip: text`
+- `color: transparent` para revelar o degradê no texto
+- `text-shadow`
+- deslocamento horizontal e vertical da sombra
+- desfoque da sombra
+
+## Prática no VS Code
+
+Os conceitos novos estão sendo testados em:
+
+- `layout_05.html`
+- `style_05.css`
+
+Esse par de arquivos funciona como uma prática separada para experimentar os efeitos CSS sem alterar os quatro layouts principais do material.
+
 ## Próximos pontos do material
 
-- `background` e `background-color`
-- `linear-gradient()`
-- `background-clip: text`
-- `text-shadow`
+- diferença entre `background` e `background-color`
+- uso de imagem junto ao `background`
 - revisão final dos quatro layouts
 
 ## Observação
 
-Os tópicos novos serão completados conforme forem estudados, com exemplos e explicações curtas.
+Os tópicos serão atualizados conforme forem estudados e entendidos.
