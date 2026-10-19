@@ -10,3 +10,9 @@
 0 (nao desloca horizontalmente)
 0 (nao desloca verticalmente)
 rgba(cor)-->
+
+<!--linear-gradient      → cria o degradê
+background-clip:text → recorta o fundo no formato do texto
+color:transparent    → revela o degradê nas letras
+text-shadow          → adiciona sombra/brilho
+-->
