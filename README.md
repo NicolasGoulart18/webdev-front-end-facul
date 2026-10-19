@@ -18,8 +18,9 @@ Centralizar exemplos, exercícios e anotações de HTML, CSS e JavaScript, mante
 - `06-html5-semantico/` — `div`, `span` e HTML semântico.
 - `07-css/` — fundamentos e prática com CSS.
 - `08-revisao/` — questões e revisão dos conteúdos.
-- `09-layouts-flexbox/` — construção de layouts com `div` e Flexbox.
+- `09-layouts-flexbox/` — construção de layouts com `div` e Flexbox, incluindo revisão para a prova de 28/10.
 - `10-atividade-layout-01/` — projeto **Tech Day**, com duas páginas e layout em Flexbox.
+- `11-introducao-javascript/` — matéria de introdução ao JavaScript, com anotações e exercícios para a prova de 28/10.
 
 ## Conteúdos praticados
 
@@ -62,6 +63,8 @@ No projeto Tech Day também comecei a aplicar JavaScript em funcionalidades simp
 - `localStorage`;
 - reprodução de áudio.
 
+O estudo formal de introdução ao JavaScript está organizado em `11-introducao-javascript/`.
+
 ### Biblioteca externa
 
 No projeto Tech Day foi utilizado **Swiper.js** para estudar a implementação de um carrossel com autoplay, navegação e paginação.
@@ -86,6 +89,12 @@ Atividade prática com:
 - imagens com proporção controlada.
 
 O diretório possui um `README.md` próprio com a documentação do projeto.
+
+## Preparação para a prova de 28/10
+
+- revisão de Layouts em `09-layouts-flexbox/revisao-prova-28-10.md`;
+- introdução ao JavaScript em `11-introducao-javascript/anotacoes.md`;
+- exercícios de JavaScript em `11-introducao-javascript/exercicios.md`.
 
 ## Método de estudo
 
